@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vlesscf-idgcp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #fff;
+            margin: 10px 0;
+        }
+        article {
+            margin: 20px 0;
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            margin: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        .caption {
+            font-style: italic;
+            text-align: center;
+            margin-top: -10px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .footer-text {
+            font-style: italic;
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+        p {
+            word-wrap: break-word;
+            max-width: 100%;
+            white-space: pre-wrap;
+        }
+        .copy-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .copy-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Google Cloud Platform Indonesia</h1>
+    </header>
+    <article>
+        <h2>Vless CF</h2>
+        <div class="caption">v2ray best ip</div>
+        <p id="text1">vless://3838e9c9-9497-4462-a64f-c82fa85e5b33@35.219.50.99:443?encryption=none&security=tls&sni=id.rezasenpai.xyz&fp=randomized&type=ws&host=id.rezasenpai.xyz&path=%2F%3Fed%3D2048#id.rezasenpai.xyz</p>
+        <button class="copy-button" onclick="copyText('text1')">Copy</button>
+    </article>
+    <article>
+        <h2>Vless CF</h2>
+        <div class="caption">v2ray default ip</div>
+        <p id="text2">vless://3838e9c9-9497-4462-a64f-c82fa85e5b33@id.rezasenpai.xyz:443?encryption=none&security=tls&sni=id.rezasenpai.xyz&fp=randomized&type=ws&host=id.rezasenpai.xyz&path=%2F%3Fed%3D2048#id.rezasenpai.xyz</p>
+        <button class="copy-button" onclick="copyText('text2')">Copy</button>
+    </article>
+    <div class="footer-text">
+        <p>Ingatlah Tuhan Tidak Suka Dengan Hambanya Yang Berlebihan.</p>
+        <p><center>Reza Senpai</center></p>
+    </div>
+
+    <script>
+        function copyText(elementId) {
+            var text = document.getElementById(elementId).innerText;
+            var textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            alert('Text copied to clipboard');
+        }
+    </script>
+</body>
+</html>
